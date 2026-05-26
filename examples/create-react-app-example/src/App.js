@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import logo from './logo.svg';
 import './App.css';
 import io from 'socket.io-client';
@@ -49,6 +50,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <SpeedInsights />
     </div>
   );
 }
