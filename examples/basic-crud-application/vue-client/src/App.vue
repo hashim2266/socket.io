@@ -1,5 +1,6 @@
 <script setup>
 import { computed, ref } from "vue";
+import { SpeedInsights } from "@vercel/speed-insights/vue";
 import { useTodoStore } from "@/stores/todo";
 import { socket } from "@/socket";
 
@@ -118,6 +119,7 @@ function pluralize(word, count) {
       </button>
     </footer>
   </section>
+  <SpeedInsights />
 </template>
 
 <style scoped></style>
