@@ -24,7 +24,7 @@
     "prepack": "npm run compile"
   },
   "dependencies": {
-    "debug": "~4.4.1"
+    "debug": "~4.4.3"
   },
   "peerDependencies": {
     "socket.io-adapter": "~2.5.5"
