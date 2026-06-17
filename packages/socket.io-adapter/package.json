@@ -17,7 +17,7 @@
   "types": "./dist/index.d.ts",
   "description": "default socket.io in-memory adapter",
   "dependencies": {
-    "debug": "~4.4.1",
+    "debug": "~4.4.3",
     "ws": "~8.21.0"
   },
   "scripts": {
