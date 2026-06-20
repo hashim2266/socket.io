@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@msgpack/msgpack": "^2.7.0",
-    "debug": "~4.4.1"
+    "debug": "~4.4.3"
   },
   "keywords": [
     "socket.io",
